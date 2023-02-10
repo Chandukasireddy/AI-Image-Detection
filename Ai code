@@ -4,7 +4,7 @@ from tensorflow import keras
 # Load the pre-trained InceptionV3 model
 model = keras.applications.InceptionV3(include_top=False,
                                         weights='imagenet')
-
+#trial-branch commit
 # Pre-process the image
 def preprocess_image(image_path):
     # Read the image file
